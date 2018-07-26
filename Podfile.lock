@@ -1,0 +1,32 @@
+PODS:
+  - Gloss (2.0.0)
+  - PromiseKit (6.2.8):
+    - PromiseKit/CorePromise (= 6.2.8)
+    - PromiseKit/Foundation (= 6.2.8)
+    - PromiseKit/UIKit (= 6.2.8)
+  - PromiseKit/CorePromise (6.2.8)
+  - PromiseKit/Foundation (6.2.8):
+    - PromiseKit/CorePromise
+  - PromiseKit/UIKit (6.2.8):
+    - PromiseKit/CorePromise
+  - RxSwift (4.1.2)
+
+DEPENDENCIES:
+  - Gloss
+  - PromiseKit
+  - RxSwift
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - Gloss
+    - PromiseKit
+    - RxSwift
+
+SPEC CHECKSUMS:
+  Gloss: b67617f327406adfd47adf20172d00680a3a31bd
+  PromiseKit: 6788ce1a0ed5448b83d4aaf56b9fc49fb7647d32
+  RxSwift: e49536837d9901277638493ea537394d4b55f570
+
+PODFILE CHECKSUM: 8b38780cae789feaa4349cebf5775a4a27b7d7fe
+
+COCOAPODS: 1.5.3
