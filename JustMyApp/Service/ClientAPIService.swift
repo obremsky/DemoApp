@@ -1,12 +1,7 @@
 
 import Foundation
-import Gloss
 import PromiseKit
 
-enum URLType: String {
-  case cdn
-  case local
-}
 
 class ClientAPIService: Service {
   static let defaultSession = URLSession(configuration: .default)
